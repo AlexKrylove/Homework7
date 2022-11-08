@@ -6,14 +6,12 @@ public class Main {
         weight[1] = 2;
         weight[2] = 3;
         for (int i = 0; i < weight.length; i++) {
-            if (i % 2 != 0) {
-                weight[0]++;
-                weight[2]++;
+            if (weight[i] % 2 != 0) {
+                weight[i]++;
                 System.out.println(weight[0] + "," + weight[1] + "," + weight[2]);
             }
         }
     }
 }
-
 
 
